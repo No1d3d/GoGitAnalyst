@@ -9,6 +9,7 @@ GoGitAnalyst is a command-line tool to monitor GitHub repository statistics. It 
 - Collects user commit statistics.
 
 #Installation
+
 Before installing, make sure you have the following tools installed:
 - Go (version 1.18+): You need to have Go installed to build the project. You can install it from here.
 - GitHub OAuth Token: You need a GitHub OAuth token to access the repository data.
