@@ -29,6 +29,7 @@ go mod init GoGitAnalyst
 go mod tidy
 ```
 #Usage
+
 1 - Generate OAuth Token
 To access private GitHub repositories or make authenticated API requests, you need to generate a GitHub OAuth token.
 - Go to GitHub's Personal Access Tokens page.
@@ -44,9 +45,13 @@ go run main.go --token <YOUR_OAUTH_TOKEN> --owner <REPO_OWNER> --repo <REPO_NAME
 ```
 
 #Flags
+
 --token, -t: GitHub OAuth Token (required).
+
 --owner, -o: GitHub repository owner (required).
+
 --repo, -r: GitHub repository name (required).
+
 
 #Example:
 
@@ -82,5 +87,6 @@ User Stats:
 ```
 
 #Troubleshooting
+
 - If you encounter issues fetching data, ensure your OAuth token has the correct permissions for the repository.
 - If the program cannot find the repository or encounters an error, double-check the repository owner and name.
